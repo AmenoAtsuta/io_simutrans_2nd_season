@@ -1,0 +1,155 @@
+§################################################################################
+show connected directions
+接続方向を表示する
+message of all players
+全てのプレイヤーの収支を表示
+message of active players
+現在のプレイヤーの収支を表示
+show no message
+収支を表示しない
+set overtaking mode
+追い越しの設定
+inverted
+車線反転
+prohibited
+追越禁止
+only loading convoi
+停車中の車のみ追越
+twoway
+対面通行
+oneway
+片側二車線一方通行
+halt mode
+追越車線にも停車
+avoid becoming cityroad
+市道化を禁止する
+Overtaking:
+追越設定:
+Can be cityroad:
+市道化の危機なのだ:
+Yes
+はい
+No
+いいえ
+Prior
+優先方向
+northsouth
+南北
+eastwest
+東西
+intersection
+交差点
+Citycars are excluded.
+自家用車進入禁止
+Road Configuration
+道路の設定
+citycars do not enter
+自家用車進入禁止
+set wayobj spacing
+架線の設置間隔設定
+wayobj spacing
+架線の設置間隔
+set height offset
+高度オフセットの設定
+height offset
+高度のオフセット
+Waiting for schedule. %i left!
+発車時刻待ち（残り %i）
+line name tooltips
+系統名を表示
+#------Convoy coupling related stuff------
+#------増解結関連のエントリ------
+Wait for coupling
+連結相手を待つ(W)
+Try coupling
+連結を試みる(C)
+Waiting for coupling!
+連結相手を待機中
+Require parent convoy to enter.
+連結相手がいる時のみ進入を許可
+release back
+後ろを解放
+A convoy waits for other convoy to couple.
+この地点で連結のために他の編成を待ちます．
+A convoy tries to find a waiting convoy to couple with.
+この地点で待機中の編成と連結を試行します．
+Uncouple the back convoy now.
+即時に後ろの編成を解放します．
+Please decouple the other convoy to edit the schedule.
+スケジュールを編集するには連結解除してください．
+Copy Line
+路線複製
+Copy the selected line
+選択されている路線をコピーします
+Journey Time
+路線所要時間
+Journey time of %s
+%sの所要時間
+Halt name
+停留所名
+Copy names
+駅名をコピー
+Copy stations
+駅名と座標をコピー
+Copy csv format
+csv形式でコピー
+Station infos were copied to clipboard.\n
+クリップボードに駅情報をコピーしました．\n
+There is nothing to copy.\n
+コピーする情報がありません．\n
+Copy station names to clipboard.
+クリップボードに駅名をコピーします．
+Copy station names and their position to clipboard.
+クリップボードに駅名と座標をコピーします．
+Copy station names and journey time to clipboard in csv format.
+クリップボードに駅名と所要時間をcsv形式でコピーします．
+The latest departure slots were not used.
+直近の発車枠が使われませんでした．
+#------Schedule window related stuff------
+#------スケジュールウィンドウ関連のエントリ------
+Extract advanced settings
+詳細設定を展開
+Temporary schedule
+臨時系統
+This schedule does not affect the route cost calculation.
+このスケジュールはルートコストの計算に寄与しません．
+No Load
+乗車不可(L)
+The convoy does not load goods and passengers at this stop.
+この停留所での積載を禁止します．
+No Unload
+降車不可(U)
+The convoy does not unload goods and passengers at this stop.
+この停留所での降車/荷降ろしを禁止します．
+Unload All
+全員降車(A)
+All passengers once get off at this stop.
+この停留所ですべての積載物を一旦降ろします．
+Wait for time
+発車時刻まで待機
+Spacing cnv/month, shift
+月あたり発車本数, オフセット
+Delay tolerance
+遅延許容時間
+Use same departure time for all stops
+全て同じ発車時刻設定を適用
+If this is set, convoys will wait until one of the specified times before departing, the specified times being fractions of a month.
+指定された時刻まで発車を待機し，その時刻に発車します．発車時刻は一ヶ月を発車本数で等分したタイミングです．
+Use one spacing, shift and delay tolerance value for all stops in schedule.
+全ての停車地点に対して，同じ月あたり発車本数，タイミングオフセット，遅延許容時間を適用します．
+Unregister replacement
+置換登録解除
+Replacement seed
+置換編成に登録
+Set as the replacement seed convoy
+車庫に到着した編成の組成を，この編成と同じにします．
+Full Load Acceleration
+応荷重制御
+Always use full load acceleration regardless of loadings.
+積載量にかかわらず満載時の加速度で運転します．
+Load before departure
+出発直前に積載(B)
+Do not load cargos until the departure time comes.
+発車時刻になるまで積載しません．
+hlf_chk_include_public
+公共駅を含める
